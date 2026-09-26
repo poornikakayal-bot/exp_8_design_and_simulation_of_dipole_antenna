@@ -91,19 +91,28 @@ The antenna is usually fed at the centre gap using a **lumped port** or a **wave
 
 ## Observations
 
-*(Include your own table / plots relevant to the experiment.)*
+| S.No | Frequency (GHz) | S11 / Return Loss (dB) |     VSWR | Gain (dBi) | Directivity (dBi) |
+| ---: | --------------: | ---------------------: | -------: | ---------: | ----------------: |
+|    1 |            0.90 |                   -8.2 |     2.28 |       1.85 |              2.35 |
+|    2 |            0.95 |                  -15.6 |     1.39 |       2.02 |              2.45 |
+|    3 |            0.98 |                  -22.4 |     1.16 |       2.10 |              2.55 |
+|    4 |        **1.00** |              **-28.5** | **1.08** |   **2.15** |          **2.62** |
+|    5 |            1.02 |                  -24.1 |     1.13 |       2.12 |              2.58 |
+|    6 |            1.05 |                  -16.8 |     1.34 |       2.05 |              2.49 |
+|    7 |            1.10 |                   -9.5 |     2.01 |       1.91 |              2.38 |
 
 
 ### Graphs
 
 * S11 vs frequency
-*(Include your own graph)*
+* <img width="960" height="540" alt="S11 vs Frequency" src="https://github.com/user-attachments/assets/b5b1c9b7-fe83-4d0f-94b1-19c625e577b3" />
 
 * VSWR vs frequency
-*(Include your own graph)*
+*<img width="960" height="540" alt="VSWR vs Frequency" src="https://github.com/user-attachments/assets/de2e8a0a-887e-4f00-9777-7da43c2fe4d2" />
 
 * 2-D E-plane and H-plane radiation patterns
-*(Include your own graph)*
+*<img width="353" height="270" alt="image" src="https://github.com/user-attachments/assets/ffe00850-ae68-4c72-a026-ecffac4ec55b" />
+
 ---
 
 ## Precautions
@@ -119,10 +128,11 @@ Resonant Frequency = GHz
 
 Return loss = dB
 
-VSWR = 
+VSWR = 1.08
 
-Gain = 
+Gain = 2.15 dBi
 
 ## Conclusion
 
-A half-wave dipole antenna was designed and simulated at ______ GHz using Ansys HFSS.
+A half-wave dipole antenna was designed and simulated using Ansys HFSS, and its S11, VSWR and radiation characteristics were studied.
+

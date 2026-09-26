@@ -53,12 +53,12 @@ The antenna is usually fed at the centre gap using a **lumped port** or a **wave
 
 | Parameter | Value |
 |---|---|
-| Operating frequency (f) | ______ GHz |
-| Wavelength, λ = c/f | ______ mm |
-| Dipole length, L = λ/2 | ______ mm |
-| Arm length, L/2 | ______ mm |
-| Conductor radius | ______ mm |
-| Feed gap | ______ mm |
+| Operating frequency (f) | 1 GHz |
+| Wavelength, λ = c/f | 300 mm |
+| Dipole length, L = λ/2 | 150 mm |
+| Arm length, L/2 | 71.25 mm |
+| Conductor radius | 1.5 mm |
+| Feed gap | 2 mm |
 | Substrate / boundary | Radiation box (λ/4 air-buffer on all sides) |
 
 ---
